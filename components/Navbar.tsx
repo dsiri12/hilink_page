@@ -18,7 +18,7 @@ const Navbar = () => {
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
-            key={link.key}
+            key={link.label}
             className='regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold'
           >
             {link.label}
